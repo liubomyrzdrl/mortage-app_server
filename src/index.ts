@@ -19,6 +19,6 @@ mongoose.connection.on("error", () => {
 
 app.use("/", bankRouter);
 
-app.listen("5000", () => {
+app.listen(PORT, () => {
   console.log(`Server listen on post:${PORT}`);
 });
